@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navBar {
+    display: flex;
+    flex-direction: column;
+    background-color: skyblue;
+    padding: 15px;
+    gap: 30px;
+}
+/* ------Start of Top Half of NavBar------ */
+.navTop {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.navTopLeft {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+.navTopRight {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    color: white;
+    font-size: 25px;
+}
+.donate {
+    background-color: white;
+    color: rgb(158, 110, 207);
+    border: solid rgb(158, 110, 207);
+    border-radius: 50%;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+}
+
+/* ------Start of Bottom Half of NavBar------ */
+.navBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lookingFor {
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+}
+.inOrNear {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.findBff {
+    display: flex;
+    align-items: center;
+}
+.navBarImage {
+    width: 30px;
+}
+.navBarSearch {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.findBff {
+    background-color: rgb(158, 110, 207);
+    color: white;
+    padding: 5px;
+    box-shadow: 3px 3px black;
+}
+
+/* ------END OF ALL NAVBAR------ */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.petMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cec7c7;
+    border: #cec7c7;
+    border-radius: 25px;
+    margin: 20px auto;
+    padding: 20px;
+    gap: 15px;
+}
+.petPhoto {
+    width: 170px;
+}
+.petInfoBox {
+    width: 400px;
+    gap: 20px;
+}
+.petName {
+    font-size: 30px;
+
+}
+.petInfo {
+    font-size: 22px;
+}
+.petCounter {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}
+.pettingCount {
+    font-size: 20px;
+}
+.petCount {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.pettings {
+    font-size: 20px
+}
+.givePetPet {
+    background-color: skyblue;
+    color: white;
+    font-size: 15px;
+    width: 125px;
+    height: 28px;
+}
